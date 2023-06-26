@@ -1,21 +1,39 @@
 .footer {
-  padding-top: 210px;
-  padding-bottom: 116px;
+  padding-top: 105px;
+  padding-bottom: 85px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   background-image: url('../../images/yellow.png');
   background-repeat: no-repeat;
   background-position: 557px 89px;
+  gap: 30px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 210px;
+    padding-bottom: 116px;
+    gap: 0px;
+    flex-direction: row;
+    background-position: 44px 82px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-position: 557px 89px;
+  }
 }
 
 .text {
-  width: 320px;
+  width: 300px;
   color: #626687;
   font-size: 14px;
   line-height: 24px;
   opacity: 0.75;
   margin-top: 22px;
   margin-bottom: 24px;
+
+  @media screen and (min-width: 1280px) {
+    width: 320px;
+  }
 }
 .socialLinks {
   display: inline-flex;
@@ -24,20 +42,38 @@
 }
 .links {
   display: flex;
-  gap: 88px;
+  gap: 16px;
+
+  @media screen and (min-width: 375px) {
+    gap: 32px;
+  }
+
+  @media screen and (min-width: 768px) {
+    gap: 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    gap: 88px;
+  }
 }
 
 .listTitle {
   color: #0e1735;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
 }
 
 .linksList {
   display: flex;
   flex-direction: column;
   color: #888b97;
-  font-size: 14px;
+  font-size: 12px;
   gap: 18px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
 }

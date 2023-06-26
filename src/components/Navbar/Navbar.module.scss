@@ -1,18 +1,28 @@
 .list {
   display: flex;
-  gap: 24px;
-  margin-left: auto;
+  gap: 14px;
   z-index: 2;
+
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    gap: 24px;
+  }
 }
 
 .item {
-  color: #f0f3fd;
+  color: #1b1c57;
   font-size: 14px;
   font-weight: 600;
   display: flex;
   align-items: center;
-  padding: 8px 16px;
+  padding: 9px;
   border-radius: 32px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgb(27, 28, 87, 0.3);
   background: rgba(255, 255, 255, 0.1);
+
+  @media screen and (min-width: 1280px) {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #f0f3fd;
+    padding: 8px 16px;
+  }
 }

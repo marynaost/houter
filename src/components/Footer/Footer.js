@@ -45,7 +45,7 @@ export default function Footer(params) {
             </li>
           </ul>
         </div>
-        <div>
+        <div style={{ flexShrink: 0 }}>
           <h3 className={s.listTitle}>Article</h3>
           <ul className={s.linksList}>
             <li>

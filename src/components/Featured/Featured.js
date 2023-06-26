@@ -8,8 +8,6 @@ import s from './Featured.module.scss';
 import Icon from 'components/Icon';
 
 export default function Featured() {
-  console.log(slidesInfo);
-
   return (
     <section className={`${s.section} `}>
       <p className={s.rek}>Our Recommendation</p>
@@ -40,8 +38,8 @@ export default function Featured() {
             '--swiper-navigation-size': '28px',
           }}
           modules={[Virtual, Keyboard, Navigation]}
-          spaceBetween={40}
-          slidesPerView={4}
+          spaceBetween={30}
+          slidesPerView={1}
           virtual
           keyboard={{
             enabled: true,
@@ -49,14 +47,20 @@ export default function Featured() {
           navigation={true}
           loop={true}
           grabCursor={true}
+          breakpoints={{
+            375: {
+              spaceBetween: 40,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1280: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+          }}
         >
-          {/* <button className="swiper-button-prev">
-            <Icon iconName="icon-arrow-left" width={24} />
-          </button>
-
-          <button className="swiper-button-next">
-            <Icon iconName="icon-arrow-right" width={24} />
-          </button> */}
           {slidesInfo.map((slide, index) => (
             <SwiperSlide key={index} virtualIndex={index}>
               <div className={s.slideCard}>

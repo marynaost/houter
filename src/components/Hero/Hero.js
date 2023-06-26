@@ -24,6 +24,7 @@ export default function Hero(params) {
           <input
             className={s.input}
             placeholder="Search for the location you want!"
+            title="Search for the location you want!"
             type="text"
           />
           <button className={s.button} type="submit">
