@@ -1,0 +1,95 @@
+import roseland from 'images/roselands.png';
+import woodlandside from 'images/woodlandside.png';
+import old from 'images/old.png';
+import cosmo from 'images/cosmo.png';
+import dianne from 'images/dianne.png';
+import robert from 'images/robert.png';
+import ronald from 'images/ronald.png';
+import jenny from 'images/jenny.png';
+
+export const slidesInfo = [
+  {
+    image: roseland,
+    name: 'Roselands House',
+    price: '$ 35.000.000',
+    person: dianne,
+    personName: 'Dianne Russell',
+    city: 'Manchester, Kentucky',
+    category: 'Popular',
+    iconName: 'icon-fire',
+    color: '#EF4444',
+    bg: '#FEE2E2',
+  },
+  {
+    image: woodlandside,
+    name: 'Woodlandside',
+    price: '$ 20.000.000',
+    person: robert,
+    personName: 'Robert Fox',
+    city: 'Dr. San Jose, South Dakota',
+    category: 'New house',
+    iconName: 'icon-house',
+    color: '#1D4ED8',
+    bg: '#DBEAFE',
+  },
+  {
+    image: old,
+    name: 'The Old Lighthouse',
+    price: '$ 44.000.000',
+    person: ronald,
+    personName: 'Ronald Richards',
+    city: 'Santa Ana, Illinois',
+    category: 'Best Deals',
+    iconName: 'icon-wallet',
+    color: '#047857',
+    bg: '#D1FAE5',
+  },
+  {
+    image: cosmo,
+    name: "Cosmo's House",
+    price: '$ 22.000.000',
+    person: jenny,
+    personName: 'Jenny Wilson',
+    city: 'Preston Rd. Inglewood, Maine 98380',
+    category: 'Popular',
+    iconName: 'icon-fire',
+    color: '#EF4444',
+    bg: '#FEE2E2',
+  },
+  {
+    image: roseland,
+    name: 'Roselands House',
+    price: '$ 35.000.000',
+    person: dianne,
+    personName: 'Dianne Russell',
+    city: 'Manchester, Kentucky',
+    category: 'Popular',
+    iconName: 'icon-fire',
+    color: '#EF4444',
+    bg: '#FEE2E2',
+  },
+  {
+    image: woodlandside,
+    name: 'Woodlandside',
+    price: '$ 20.000.000',
+    person: robert,
+    personName: 'Robert Fox',
+    city: 'Dr. San Jose, South Dakota',
+    category: 'New house',
+    iconName: 'icon-house',
+    color: '#1D4ED8',
+    bg: '#DBEAFE',
+  },
+  {
+    image: old,
+    name: 'The Old Lighthouse',
+    price: '$ 44.000.000',
+    person: ronald,
+    personName: 'Ronald Richards',
+    city: 'Santa Ana, Illinois',
+    category: 'Best Deals',
+    iconName: 'icon-wallet',
+    color: '#047857',
+    bg: '#D1FAE5',
+  },
+];

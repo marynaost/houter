@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.signUp {
+  display: inline-flex;
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: #d1fae5;
+  color: #047857;
+  border: transparent;
+  font-weight: 600;
+  line-height: 22px;
+  z-index: 2;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 56px;
+  }
+}

@@ -1,0 +1,43 @@
+.footer {
+  padding-top: 210px;
+  padding-bottom: 116px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../../images/yellow.png');
+  background-repeat: no-repeat;
+  background-position: 557px 89px;
+}
+
+.text {
+  width: 320px;
+  color: #626687;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.75;
+  margin-top: 22px;
+  margin-bottom: 24px;
+}
+.socialLinks {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.links {
+  display: flex;
+  gap: 88px;
+}
+
+.listTitle {
+  color: #0e1735;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.linksList {
+  display: flex;
+  flex-direction: column;
+  color: #888b97;
+  font-size: 14px;
+  gap: 18px;
+}
