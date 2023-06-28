@@ -2,9 +2,9 @@ import Logo from 'components/Logo/Logo';
 import Navbar from 'components/Navbar/Navbar';
 import s from './Header.module.scss';
 
-export default function Header(params) {
+export default function Header() {
   return (
-    <header className={`${s.header}  `}>
+    <header className={`${s.header} container `}>
       <Logo />
 
       <Navbar />

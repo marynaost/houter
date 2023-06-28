@@ -9,7 +9,7 @@ import Icon from 'components/Icon';
 
 export default function Featured() {
   return (
-    <section className={`${s.section} `}>
+    <section className={`${s.section} container`}>
       <p className={s.rek}>Our Recommendation</p>
       <h2 className={s.title}>Featured House</h2>
       <div className={s.buttonWrap}>
@@ -34,8 +34,8 @@ export default function Featured() {
       <div className={s.slideWrap}>
         <Swiper
           style={{
-            '--swiper-navigation-color': '#fff',
-            '--swiper-navigation-size': '28px',
+            '--swiper-navigation-color': '#3C4563',
+            '--swiper-navigation-size': '16px',
           }}
           modules={[Virtual, Keyboard, Navigation]}
           spaceBetween={30}

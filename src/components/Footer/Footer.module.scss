@@ -1,24 +1,59 @@
 .footer {
+  overflow-x: hidden;
   padding-top: 105px;
-  padding-bottom: 85px;
+  // padding-bottom: 85px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url('../../images/yellow.png');
-  background-repeat: no-repeat;
-  background-position: 557px 89px;
-  gap: 30px;
+  // gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (min-width: 768px) {
     padding-top: 210px;
-    padding-bottom: 116px;
-    gap: 0px;
+    // padding-bottom: 116px;
+    // gap: 0px;
     flex-direction: row;
-    background-position: 44px 82px;
   }
 
   @media screen and (min-width: 1280px) {
-    background-position: 557px 89px;
+  }
+}
+
+.footerWrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 85px;
+
+  @media screen and (min-width: 768px) {
+    // padding-top: 210px;
+    padding-bottom: 116px;
+    gap: 0px;
+    flex-direction: row;
+  }
+}
+
+.footerBg {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 725px;
+  height: 433px;
+  bottom: 0px;
+  right: -62px;
+  background-image: url('../../images/yellow.png');
+  background-repeat: no-repeat;
+  // background-position: 557px 89px;
+
+  @media screen and (min-width: 768px) {
+    // background-position: 44px 82px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    // background-position: 557px 89px;
   }
 }
 

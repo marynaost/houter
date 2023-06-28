@@ -3,11 +3,12 @@
   padding-top: 50px;
   font-weight: 500;
   @media screen and (min-width: 768px) {
-    padding-top: 212px;
+    padding-top: 82px;
   }
 
   @media screen and (min-width: 1280px) {
     padding-left: 80px;
+    padding-top: 212px;
   }
 }
 
@@ -89,10 +90,10 @@
     fill: #10b981;
     background: #d1fae5;
     color: #10b981;
-  }
 
-  svg:hover {
-    fill: #10b981;
+    svg {
+      fill: #10b981;
+    }
   }
 
   @media screen and (min-width: 768px) {

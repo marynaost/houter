@@ -5,8 +5,12 @@
   flex-direction: column;
   gap: 20px;
   @media screen and (min-width: 768px) {
+    position: absolute;
     flex-direction: row;
     gap: 0px;
+    left: 50%;
+    z-index: 2;
+    transform: translateX(-50%);
   }
 }
 
